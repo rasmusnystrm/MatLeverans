@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  a {
+    color: inherit; 
+    text-decoration: none; 
+  }
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: red;
+    margin: 0;
+    padding:0;
+    border-bottom: 0.5vh solid #333;
+
+  }
+
+  img.search {
+    position: absolute;
+    right: 6%; 
+    width: 3vw;
+    opacity: 1;
+    top: 2vh;
+  }
+  img.cart {
+    position: absolute;
+    right: 2%; 
+    width: 3vw;
+    opacity: 1;
+    top: 2vh;
+  }
+  img.homebtn {
+    position: absolute;
+    left: 1%; 
+    width: 3vw;
+    opacity: 1;
+    top: 2vh;
+  }
+
+  .select{
+    color:#FBEDC7;
+    text-align: center;
+    margin-top: 4vh;
+    font: 1.5vw "Oxanium", sans-serif;
+    justify-content: space-between;
+}
+
+.select a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+img.titel {
+  width: 30vw;
+}
+
+.horizontal-line{
+  margin-top: 5vh;
+  border: none;
+  height: 0.5vh;
+  color: #333;
+  background-color: #333;
+  width: 100%;
+  margin-left: 0%;
+}
+
+.horizontal-line2{
+  margin-top: 3vh;
+  border: none;
+  height: 0.5vh;
+  color: #333;
+  background-color: #333;
+  width: 100%;
+  margin-left: 0%;
+}
+
+.vl {
+  border-left: 0.5vh solid #333;
+  height: 77vh;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-top: 23vh;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .horizontal-line {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+.orderlist{
+  color:#FBEDC7;
+  margin-left: 21vw;
+  margin-top: 6vh;
+  font: 1.5vw "Oxanium", sans-serif;
+  justify-content: space-between;
+}
+
+.orderlist-p{
+  color:#FBEDC7;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  margin-bottom: 6vh;
+  font: 1.25vw "Oxanium", sans-serif;
+  justify-content: space-between;
+}
+
+.orderhistory{
+  color:#FBEDC7;
+  margin-left: 21vw;
+  margin-top: 6vh;
+  font: 1.5vw "Oxanium", sans-serif;
+  justify-content: space-between;
+}
+
+.orderhistory-p{
+  color:#FBEDC7;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  font: 1.25vw "Oxanium", sans-serif;
+  justify-content: space-between;
+}
+
+.track-order{
+  color:#FBEDC7;
+  position: absolute;
+  right: 8%;
+  top: 25%;
+  font: 1.25vw "Oxanium", sans-serif;
+  margin-top: 5vh;
+}
+
+.rounded-input {
+  position: absolute;
+  right: 30%;
+  width: 40%;
+  border: 0.3vh solid #333;
+  border-radius: 3rem;
+  padding: 1.5%;
+  font-size: 2vh;
+  margin-top: 2vh;
+}
+
+.rounded-input:focus {
+  outline: none;
+  border-color: cornflowerblue;
+}
+
+.order-image {
+  position: fixed;
+  top: 63.6%;
+  right: 7.5%;
+}
+
+.order-image img {
+  width: 11.5vw; 
+}

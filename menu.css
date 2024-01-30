@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+  }
+
+  a {
+    color: inherit; 
+    text-decoration: none; 
+  }
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: red;
+    margin: 0;
+    padding:0;
+    border-bottom: 0.5vh solid #333;
+  }
+
+
+  img.search {
+    position: absolute;
+    right: 6%; 
+    width: 3vw;
+    opacity: 1;
+    top: 2vh;
+  }
+  img.cart {
+    position: absolute;
+    right: 2%; 
+    width: 3vw;
+    opacity: 1;
+    top: 2vh;
+  }
+  img.homebtn {
+    position: absolute;
+    left: 1%; 
+    width: 3vw;
+    opacity: 1;
+    top: 2vh;
+  }
+
+  .select{
+    color:#FBEDC7;
+    text-align: center;
+    margin-top: 4vh;
+    font: 1.5vw "Oxanium", sans-serif;
+    justify-content: space-between;
+}
+
+.select a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+hr{
+  margin-top: 5vh;
+  border: none;
+  height: 0.5vh;
+  color: #333;
+  background-color: #333;
+}
+
+
+img.titel {
+  width: 30vw;
+}
+
+.hr2{
+  margin: 0 auto;
+  width: 90vw;
+
+}
+
+.foodmenu{
+  margin-top: 3vh;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: 1vw "Oxanium", sans-serif;
+  color:#FBEDC7;
+  margin-left: 8vw;
+  margin-right: 33vw;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  margin-left: 5em;
+  margin-right: 3em;
+}
+main{
+  width: 99vw;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(135,135,135,0.8);
+  max-width: 8vw;
+  box-shadow: 0px 8px 16px 0px rgba(135,135,135,0.8);
+  z-index: 1;
+  font-size: 1vw;
+}
+
+
+.dropdown-content a {
+  color: white;
+  padding: 13.5px ;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+p img {
+  width: 2vw;
+  height: auto;
+}
+
+.menupics{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.menupics img {
+  width: 20vw;
+  height: auto;
+}
+
+.menuprice{
+  margin-top: 1vh;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: 1vw "Oxanium", sans-serif;
+  color:#FBEDC7;
+  margin-left: 14vw;
+  margin-right: 37.5vw;
+}
+
+.menuprice p {
+  font-weight: bold;
+}
+
+.rounded-input {
+  
+  position: absolute;
+  right: 5%;
+  width: 10%;
+  border: 0.3vh solid #333;
+  border-radius: 3rem;
+  padding: 1%;
+  font-size: 2vh;
+  margin-right: 4vw;
+  margin-left: 10vw;
+}
+
+.rounded-input:focus {
+  outline: none;
+  border-color: cornflowerblue;
+}
+
+.sokkk{
+  position: absolute;
+  right: 10%;
+  max-width: 100%;
+  height: auto;
+  width: 2vw;
+}
+
+
