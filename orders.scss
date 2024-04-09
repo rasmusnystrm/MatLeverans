@@ -1,0 +1,152 @@
+$body-background-color: red;
+$border-color: #333;
+$select-color: #FBEDC7;
+$font: "Oxanium", sans-serif;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $body-background-color;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit; 
+  text-decoration: none; 
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+  background-color: $body-background-color;
+  margin: 0;
+  padding: 0;
+  border-bottom: 0.5vh solid $border-color;
+
+  img.search {
+    position: absolute;
+    right: 6%; 
+    width: 3vw;
+    opacity: 1;
+    top: 2vh;
+  }
+
+  img.cart {
+    position: absolute;
+    right: 2%; 
+    width: 3vw;
+    opacity: 1;
+    top: 2vh;
+  }
+
+  img.homebtn {
+    position: absolute;
+    left: 1%; 
+    width: 3vw;
+    opacity: 1;
+    top: 2vh;
+  }
+}
+
+.select {
+  color: $select-color;
+  text-align: center;
+  margin-top: 4vh;
+  font: 1.5vw $font;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    padding: 0 10px;
+  }
+}
+
+img.titel {
+  width: 30vw;
+}
+
+.horizontal-line, .horizontal-line2 {
+  border: none;
+  height: 0.5vh;
+  color: $border-color;
+  background-color: $border-color;
+  width: 100%;
+
+  &.horizontal-line {
+    margin-top: 5vh;
+
+    @media (max-width: 768px) {
+      width: 90%;
+      margin-left: 5%;
+    }
+  }
+
+  &.horizontal-line2 {
+    margin-top: 3vh;
+  }
+}
+
+.vl {
+  border-left: 0.5vh solid $border-color;
+  height: 77vh;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-top: 23vh;
+  transform: translateX(-50%);
+}
+
+.orderlist, .orderhistory {
+  color: $select-color;
+  margin-left: 21vw;
+  margin-top: 6vh;
+  font: 1.5vw $font;
+  justify-content: space-between;
+}
+
+.orderlist-p, .orderhistory-p {
+  color: $select-color;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  font: 1.25vw $font;
+  justify-content: space-between;
+}
+
+.track-order {
+  color: $select-color;
+  position: absolute;
+  right: 8%;
+  top: 25%;
+  font: 1.25vw $font;
+  margin-top: 5vh;
+}
+
+.rounded-input {
+  position: absolute;
+  right: 30%;
+  width: 40%;
+  border: 0.3vh solid $border-color;
+  border-radius: 3rem;
+  padding: 1.5%;
+  font-size: 2vh;
+  margin-top: 2vh;
+
+  &:focus {
+    outline: none;
+    border-color: cornflowerblue;
+  }
+}
+
+.order-image {
+  position: fixed;
+  top: 63.6%;
+  right: 7.5%;
+
+  img {
+    width: 11.5vw; 
+  }
+}
